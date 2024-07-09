@@ -25,7 +25,7 @@ public class AppMain {
     public static List<String> ipServerList;
 
     public static void main(String[] args) {
-        System.out.println(ApplicationName + " hello jenkins");
+        System.out.println(ApplicationName + " hello jenkins abcd");
         ConfigUtil.loadProperties();
         applicationStart(sourceLog);
 
