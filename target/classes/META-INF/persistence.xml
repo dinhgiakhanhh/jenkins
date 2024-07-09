@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.mfs.httpbase_API2Learn_jar_1.0PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>api2learn.entity.MonitorResult</class>
+    <class>api2learn.entity.DatabaseLog</class>
+    <class>com.vmg.entity.Actionhistory</class>
+    <class>com.vmg.entity.Tblgrouprole</class>
+    <class>com.vmg.entity.Tblconfigsms</class>
+    <class>com.vmg.entity.Reloadconfig</class>
+    <class>com.vmg.entity.Synupdatepackage</class>
+    <class>com.vmg.entity.Blacklist</class>
+    <class>com.vmg.entity.Subinfo</class>
+    <class>com.vmg.entity.Monitorservice</class>
+    <class>com.vmg.entity.Tblpackage</class>
+    <class>com.vmg.entity.VasgateImport</class>
+    <class>com.vmg.entity.CdrImport</class>
+    <class>com.vmg.entity.Tblaccount</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@123.31.17.225:1521:ANTIT"/>
+      <property name="javax.persistence.jdbc.user" value="twolearn"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="twolearn"/>
+    </properties>
+  </persistence-unit>
+</persistence>
